@@ -1,0 +1,11 @@
+D:\GitHubProjects\LINQ_practice\LINQ_fundamentals\Introduction\obj\Debug\netcoreapp3.1\Introduction.AssemblyInfoInputs.cache
+D:\GitHubProjects\LINQ_practice\LINQ_fundamentals\Introduction\obj\Debug\netcoreapp3.1\Introduction.AssemblyInfo.cs
+D:\GitHubProjects\LINQ_practice\LINQ_fundamentals\Introduction\bin\Debug\netcoreapp3.1\Introduction.exe
+D:\GitHubProjects\LINQ_practice\LINQ_fundamentals\Introduction\bin\Debug\netcoreapp3.1\Introduction.deps.json
+D:\GitHubProjects\LINQ_practice\LINQ_fundamentals\Introduction\bin\Debug\netcoreapp3.1\Introduction.runtimeconfig.json
+D:\GitHubProjects\LINQ_practice\LINQ_fundamentals\Introduction\bin\Debug\netcoreapp3.1\Introduction.runtimeconfig.dev.json
+D:\GitHubProjects\LINQ_practice\LINQ_fundamentals\Introduction\bin\Debug\netcoreapp3.1\Introduction.dll
+D:\GitHubProjects\LINQ_practice\LINQ_fundamentals\Introduction\bin\Debug\netcoreapp3.1\Introduction.pdb
+D:\GitHubProjects\LINQ_practice\LINQ_fundamentals\Introduction\obj\Debug\netcoreapp3.1\Introduction.dll
+D:\GitHubProjects\LINQ_practice\LINQ_fundamentals\Introduction\obj\Debug\netcoreapp3.1\Introduction.pdb
+D:\GitHubProjects\LINQ_practice\LINQ_fundamentals\Introduction\obj\Debug\netcoreapp3.1\Introduction.csprojAssemblyReference.cache

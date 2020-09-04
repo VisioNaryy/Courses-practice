@@ -1,0 +1,654 @@
+queryContext => new QueryingEnumerable<Car>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache, 
+    null, 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, Car>, 
+    Linq_to_Xml.CarDbContext, 
+    null
+)Creating DbCommand for 'ExecuteReader'.Created DbCommand for 'ExecuteReader' (10ms).Opening connection to database 'helloappdb' on server 'localhost'.Opened connection to database 'helloappdb' on server 'localhost'.Executing DbCommand [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_0) [c].[Id], [c].[City], [c].[Combined], [c].[Cylinders], [c].[Displacement], [c].[Highway], [c].[Manufacturer], [c].[Name], [c].[Year]
+FROM [Cars] AS [c]
+ORDER BY [c].[Combined] DESC, [c].[Name]Executed DbCommand (68ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_0) [c].[Id], [c].[City], [c].[Combined], [c].[Cylinders], [c].[Displacement], [c].[Highway], [c].[Manufacturer], [c].[Name], [c].[Year]
+FROM [Cars] AS [c]
+ORDER BY [c].[Combined] DESC, [c].[Name]Context 'CarDbContext' started tracking 'Car' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.Context 'CarDbContext' started tracking 'Car' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.Context 'CarDbContext' started tracking 'Car' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.Context 'CarDbContext' started tracking 'Car' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.Context 'CarDbContext' started tracking 'Car' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.Context 'CarDbContext' started tracking 'Car' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.Context 'CarDbContext' started tracking 'Car' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.Context 'CarDbContext' started tracking 'Car' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.Context 'CarDbContext' started tracking 'Car' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.Context 'CarDbContext' started tracking 'Car' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.A data reader was disposed.Closing connection to database 'helloappdb' on server 'localhost'.Closed connection to database 'helloappdb' on server 'localhost'.queryContext => new QueryingEnumerable<Car>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache, 
+    null, 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, int[], ResultCoordinator, Car>, 
+    Linq_to_Xml.CarDbContext, 
+    null
+)Creating DbCommand for 'ExecuteReader'.Created DbCommand for 'ExecuteReader' (26ms).Opening connection to database 'helloappdb' on server 'localhost'.Opened connection to database 'helloappdb' on server 'localhost'.Executing DbCommand [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_0) [c].[Id], [c].[City], [c].[Combined], [c].[Cylinders], [c].[Displacement], [c].[Highway], [c].[Manufacturer], [c].[Name], [c].[Year]
+FROM [Cars] AS [c]
+ORDER BY [c].[Combined] DESC, [c].[Name]Executed DbCommand (176ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_0) [c].[Id], [c].[City], [c].[Combined], [c].[Cylinders], [c].[Displacement], [c].[Highway], [c].[Manufacturer], [c].[Name], [c].[Year]
+FROM [Cars] AS [c]
+ORDER BY [c].[Combined] DESC, [c].[Name]Context 'CarDbContext' started tracking 'Car' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.Context 'CarDbContext' started tracking 'Car' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.Context 'CarDbContext' started tracking 'Car' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.Context 'CarDbContext' started tracking 'Car' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.Context 'CarDbContext' started tracking 'Car' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.Context 'CarDbContext' started tracking 'Car' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.Context 'CarDbContext' started tracking 'Car' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.Context 'CarDbContext' started tracking 'Car' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.Context 'CarDbContext' started tracking 'Car' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.Context 'CarDbContext' started tracking 'Car' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.A data reader was disposed.Closing connection to database 'helloappdb' on server 'localhost'.Closed connection to database 'helloappdb' on server 'localhost'.Entity Framework Core 3.1.7 initialized 'CarDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: NoneExecuted DbCommand (58ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1Executed DbCommand (86ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0Executed DbCommand (10ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Cars] AS [c]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+ENDEntity Framework Core 3.1.7 initialized 'CarDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: NoneExecuted DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0Executed DbCommand (84ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_0) [c].[Id], [c].[City], [c].[Combined], [c].[Cylinders], [c].[Displacement], [c].[Highway], [c].[Manufacturer], [c].[Name], [c].[Year]
+FROM [Cars] AS [c]
+ORDER BY [c].[Combined] DESC, [c].[Name]Entity Framework Core 3.1.7 initialized 'CarDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: NoneExecuted DbCommand (76ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1Executed DbCommand (87ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0Executed DbCommand (10ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Cars] AS [c]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+ENDEntity Framework Core 3.1.7 initialized 'CarDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: NoneExecuted DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1Executed DbCommand (7ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0Executed DbCommand (54ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_0) [c].[Id], [c].[City], [c].[Combined], [c].[Cylinders], [c].[Displacement], [c].[Highway], [c].[Manufacturer], [c].[Name], [c].[Year]
+FROM [Cars] AS [c]
+ORDER BY [c].[Combined] DESC, [c].[Name]Entity Framework Core 3.1.7 initialized 'CarDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: NoneExecuted DbCommand (20ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1Executed DbCommand (27ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Cars] AS [c]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+ENDEntity Framework Core 3.1.7 initialized 'CarDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: NoneExecuted DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0Executed DbCommand (52ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_0) [c].[Id], [c].[City], [c].[Combined], [c].[Cylinders], [c].[Displacement], [c].[Highway], [c].[Manufacturer], [c].[Name], [c].[Year]
+FROM [Cars] AS [c]
+ORDER BY [c].[Combined] DESC, [c].[Name]Entity Framework Core 3.1.7 initialized 'CarDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: NoneExecuted DbCommand (53ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1Executed DbCommand (66ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0Executed DbCommand (7ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Cars] AS [c]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+ENDEntity Framework Core 3.1.7 initialized 'CarDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: NoneExecuted DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0Executed DbCommand (100ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_0) [c].[Id], [c].[City], [c].[Combined], [c].[Cylinders], [c].[Displacement], [c].[Highway], [c].[Manufacturer], [c].[Name], [c].[Year]
+FROM [Cars] AS [c]
+WHERE [c].[Manufacturer] = N'BMW'
+ORDER BY [c].[Combined] DESC, [c].[Name]Entity Framework Core 3.1.7 initialized 'CarDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: NoneExecuted DbCommand (47ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1Executed DbCommand (71ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0Executed DbCommand (5ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Cars] AS [c]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+ENDEntity Framework Core 3.1.7 initialized 'CarDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: NoneExecuted DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0Executed DbCommand (69ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='Text', CommandTimeout='30']
+SELECT TOP(@__p_0) UPPER([c].[Name]) AS [Name]
+FROM [Cars] AS [c]
+WHERE [c].[Manufacturer] = N'BMW'
+ORDER BY [c].[Combined] DESC, [c].[Name]Entity Framework Core 3.1.7 initialized 'CarDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: NoneExecuted DbCommand (51ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1Executed DbCommand (82ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0Executed DbCommand (8ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Cars] AS [c]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+ENDEntity Framework Core 3.1.7 initialized 'CarDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: NoneExecuted DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0Entity Framework Core 3.1.7 initialized 'CarDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: NoneExecuted DbCommand (23ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1Executed DbCommand (48ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0Executed DbCommand (8ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Cars] AS [c]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+ENDEntity Framework Core 3.1.7 initialized 'CarDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: NoneExecuted DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1Executed DbCommand (2ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0Entity Framework Core 3.1.7 initialized 'CarDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: NoneExecuted DbCommand (52ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1Executed DbCommand (67ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0Executed DbCommand (5ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Cars] AS [c]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+ENDEntity Framework Core 3.1.7 initialized 'CarDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: NoneExecuted DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1Executed DbCommand (22ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0Entity Framework Core 3.1.7 initialized 'CarDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: NoneExecuted DbCommand (53ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1Executed DbCommand (69ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0Executed DbCommand (6ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Cars] AS [c]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+ENDEntity Framework Core 3.1.7 initialized 'CarDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: NoneExecuted DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0Entity Framework Core 3.1.7 initialized 'CarDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: NoneExecuted DbCommand (44ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1Executed DbCommand (60ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0Executed DbCommand (6ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Cars] AS [c]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+ENDEntity Framework Core 3.1.7 initialized 'CarDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: NoneExecuted DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0Entity Framework Core 3.1.7 initialized 'CarDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: NoneExecuted DbCommand (18ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1Executed DbCommand (30ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Cars] AS [c]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+ENDEntity Framework Core 3.1.7 initialized 'CarDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: NoneExecuted DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1Executed DbCommand (5ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0Entity Framework Core 3.1.7 initialized 'CarDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: NoneExecuted DbCommand (48ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1Executed DbCommand (66ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0Executed DbCommand (5ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Cars] AS [c]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+ENDEntity Framework Core 3.1.7 initialized 'CarDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: NoneExecuted DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0Entity Framework Core 3.1.7 initialized 'CarDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: NoneExecuted DbCommand (43ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1Executed DbCommand (60ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0Executed DbCommand (5ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Cars] AS [c]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+ENDEntity Framework Core 3.1.7 initialized 'CarDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: NoneExecuted DbCommand (0ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0Entity Framework Core 3.1.7 initialized 'CarDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: NoneExecuted DbCommand (56ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1Executed DbCommand (84ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0Executed DbCommand (8ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Cars] AS [c]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+ENDEntity Framework Core 3.1.7 initialized 'CarDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: NoneExecuted DbCommand (1ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1Executed DbCommand (4ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0Entity Framework Core 3.1.7 initialized 'CarDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: NoneExecuted DbCommand (23ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1Executed DbCommand (50ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0Executed DbCommand (7ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Cars] AS [c]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+ENDEntity Framework Core 3.1.7 initialized 'CarDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: NoneExecuted DbCommand (6ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1Executed DbCommand (6ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0Entity Framework Core 3.1.7 initialized 'CarDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: NoneExecuted DbCommand (36ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1Executed DbCommand (44ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0Executed DbCommand (3ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT CASE
+    WHEN EXISTS (
+        SELECT 1
+        FROM [Cars] AS [c]) THEN CAST(1 AS bit)
+    ELSE CAST(0 AS bit)
+ENDEntity Framework Core 3.1.7 initialized 'CarDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer' with options: NoneExecuted DbCommand (6ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+SELECT 1Executed DbCommand (6ms) [Parameters=[], CommandType='Text', CommandTimeout='30']
+
+IF EXISTS
+    (SELECT *
+     FROM [sys].[objects] o
+     WHERE [o].[type] = 'U'
+     AND [o].[is_ms_shipped] = 0
+     AND NOT EXISTS (SELECT *
+         FROM [sys].[extended_properties] AS [ep]
+         WHERE [ep].[major_id] = [o].[object_id]
+             AND [ep].[minor_id] = 0
+             AND [ep].[class] = 1
+             AND [ep].[name] = N'microsoft_database_tools_support'
+    )
+)
+SELECT 1 ELSE SELECT 0

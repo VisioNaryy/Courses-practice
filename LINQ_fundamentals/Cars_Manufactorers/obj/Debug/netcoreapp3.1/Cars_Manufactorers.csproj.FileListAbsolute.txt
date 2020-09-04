@@ -1,0 +1,13 @@
+D:\GitHubProjects\LINQ_practice\LINQ_fundamentals\Cars_Manufactorers\bin\Debug\netcoreapp3.1\fuel.csv
+D:\GitHubProjects\LINQ_practice\LINQ_fundamentals\Cars_Manufactorers\bin\Debug\netcoreapp3.1\manufacturers.csv
+D:\GitHubProjects\LINQ_practice\LINQ_fundamentals\Cars_Manufactorers\bin\Debug\netcoreapp3.1\Cars_Manufactorers.exe
+D:\GitHubProjects\LINQ_practice\LINQ_fundamentals\Cars_Manufactorers\bin\Debug\netcoreapp3.1\Cars_Manufactorers.deps.json
+D:\GitHubProjects\LINQ_practice\LINQ_fundamentals\Cars_Manufactorers\bin\Debug\netcoreapp3.1\Cars_Manufactorers.runtimeconfig.json
+D:\GitHubProjects\LINQ_practice\LINQ_fundamentals\Cars_Manufactorers\bin\Debug\netcoreapp3.1\Cars_Manufactorers.runtimeconfig.dev.json
+D:\GitHubProjects\LINQ_practice\LINQ_fundamentals\Cars_Manufactorers\bin\Debug\netcoreapp3.1\Cars_Manufactorers.dll
+D:\GitHubProjects\LINQ_practice\LINQ_fundamentals\Cars_Manufactorers\bin\Debug\netcoreapp3.1\Cars_Manufactorers.pdb
+D:\GitHubProjects\LINQ_practice\LINQ_fundamentals\Cars_Manufactorers\obj\Debug\netcoreapp3.1\Cars_Manufactorers.csprojAssemblyReference.cache
+D:\GitHubProjects\LINQ_practice\LINQ_fundamentals\Cars_Manufactorers\obj\Debug\netcoreapp3.1\Cars_Manufactorers.AssemblyInfoInputs.cache
+D:\GitHubProjects\LINQ_practice\LINQ_fundamentals\Cars_Manufactorers\obj\Debug\netcoreapp3.1\Cars_Manufactorers.AssemblyInfo.cs
+D:\GitHubProjects\LINQ_practice\LINQ_fundamentals\Cars_Manufactorers\obj\Debug\netcoreapp3.1\Cars_Manufactorers.dll
+D:\GitHubProjects\LINQ_practice\LINQ_fundamentals\Cars_Manufactorers\obj\Debug\netcoreapp3.1\Cars_Manufactorers.pdb

@@ -1,0 +1,11 @@
+D:\GitHubProjects\LINQ_practice\LINQ_fundamentals\Features\bin\Debug\netcoreapp3.1\Features.exe
+D:\GitHubProjects\LINQ_practice\LINQ_fundamentals\Features\bin\Debug\netcoreapp3.1\Features.deps.json
+D:\GitHubProjects\LINQ_practice\LINQ_fundamentals\Features\bin\Debug\netcoreapp3.1\Features.runtimeconfig.json
+D:\GitHubProjects\LINQ_practice\LINQ_fundamentals\Features\bin\Debug\netcoreapp3.1\Features.runtimeconfig.dev.json
+D:\GitHubProjects\LINQ_practice\LINQ_fundamentals\Features\bin\Debug\netcoreapp3.1\Features.dll
+D:\GitHubProjects\LINQ_practice\LINQ_fundamentals\Features\bin\Debug\netcoreapp3.1\Features.pdb
+D:\GitHubProjects\LINQ_practice\LINQ_fundamentals\Features\obj\Debug\netcoreapp3.1\Features.csprojAssemblyReference.cache
+D:\GitHubProjects\LINQ_practice\LINQ_fundamentals\Features\obj\Debug\netcoreapp3.1\Features.AssemblyInfoInputs.cache
+D:\GitHubProjects\LINQ_practice\LINQ_fundamentals\Features\obj\Debug\netcoreapp3.1\Features.AssemblyInfo.cs
+D:\GitHubProjects\LINQ_practice\LINQ_fundamentals\Features\obj\Debug\netcoreapp3.1\Features.dll
+D:\GitHubProjects\LINQ_practice\LINQ_fundamentals\Features\obj\Debug\netcoreapp3.1\Features.pdb

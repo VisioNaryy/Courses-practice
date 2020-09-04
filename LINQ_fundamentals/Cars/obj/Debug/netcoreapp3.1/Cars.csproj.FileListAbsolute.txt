@@ -1,0 +1,12 @@
+D:\GitHubProjects\LINQ_practice\LINQ_fundamentals\Cars\bin\Debug\netcoreapp3.1\fuel.csv
+D:\GitHubProjects\LINQ_practice\LINQ_fundamentals\Cars\bin\Debug\netcoreapp3.1\Cars.exe
+D:\GitHubProjects\LINQ_practice\LINQ_fundamentals\Cars\bin\Debug\netcoreapp3.1\Cars.deps.json
+D:\GitHubProjects\LINQ_practice\LINQ_fundamentals\Cars\bin\Debug\netcoreapp3.1\Cars.runtimeconfig.json
+D:\GitHubProjects\LINQ_practice\LINQ_fundamentals\Cars\bin\Debug\netcoreapp3.1\Cars.runtimeconfig.dev.json
+D:\GitHubProjects\LINQ_practice\LINQ_fundamentals\Cars\bin\Debug\netcoreapp3.1\Cars.dll
+D:\GitHubProjects\LINQ_practice\LINQ_fundamentals\Cars\bin\Debug\netcoreapp3.1\Cars.pdb
+D:\GitHubProjects\LINQ_practice\LINQ_fundamentals\Cars\obj\Debug\netcoreapp3.1\Cars.csprojAssemblyReference.cache
+D:\GitHubProjects\LINQ_practice\LINQ_fundamentals\Cars\obj\Debug\netcoreapp3.1\Cars.AssemblyInfoInputs.cache
+D:\GitHubProjects\LINQ_practice\LINQ_fundamentals\Cars\obj\Debug\netcoreapp3.1\Cars.AssemblyInfo.cs
+D:\GitHubProjects\LINQ_practice\LINQ_fundamentals\Cars\obj\Debug\netcoreapp3.1\Cars.dll
+D:\GitHubProjects\LINQ_practice\LINQ_fundamentals\Cars\obj\Debug\netcoreapp3.1\Cars.pdb

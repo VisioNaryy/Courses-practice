@@ -1,0 +1,11 @@
+D:\GitHubProjects\LINQ_practice\LINQ_fundamentals\Queries\bin\Debug\netcoreapp3.1\Queries.exe
+D:\GitHubProjects\LINQ_practice\LINQ_fundamentals\Queries\bin\Debug\netcoreapp3.1\Queries.deps.json
+D:\GitHubProjects\LINQ_practice\LINQ_fundamentals\Queries\bin\Debug\netcoreapp3.1\Queries.runtimeconfig.json
+D:\GitHubProjects\LINQ_practice\LINQ_fundamentals\Queries\bin\Debug\netcoreapp3.1\Queries.runtimeconfig.dev.json
+D:\GitHubProjects\LINQ_practice\LINQ_fundamentals\Queries\bin\Debug\netcoreapp3.1\Queries.dll
+D:\GitHubProjects\LINQ_practice\LINQ_fundamentals\Queries\bin\Debug\netcoreapp3.1\Queries.pdb
+D:\GitHubProjects\LINQ_practice\LINQ_fundamentals\Queries\obj\Debug\netcoreapp3.1\Queries.csprojAssemblyReference.cache
+D:\GitHubProjects\LINQ_practice\LINQ_fundamentals\Queries\obj\Debug\netcoreapp3.1\Queries.AssemblyInfoInputs.cache
+D:\GitHubProjects\LINQ_practice\LINQ_fundamentals\Queries\obj\Debug\netcoreapp3.1\Queries.AssemblyInfo.cs
+D:\GitHubProjects\LINQ_practice\LINQ_fundamentals\Queries\obj\Debug\netcoreapp3.1\Queries.dll
+D:\GitHubProjects\LINQ_practice\LINQ_fundamentals\Queries\obj\Debug\netcoreapp3.1\Queries.pdb
