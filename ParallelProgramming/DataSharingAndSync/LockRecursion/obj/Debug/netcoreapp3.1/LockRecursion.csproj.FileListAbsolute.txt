@@ -1,0 +1,10 @@
+E:\GitHub_Projects\ParallelProgramming\DataSharingAndSync\LockRecursion\bin\Debug\netcoreapp3.1\LockRecursion.exe
+E:\GitHub_Projects\ParallelProgramming\DataSharingAndSync\LockRecursion\bin\Debug\netcoreapp3.1\LockRecursion.deps.json
+E:\GitHub_Projects\ParallelProgramming\DataSharingAndSync\LockRecursion\bin\Debug\netcoreapp3.1\LockRecursion.runtimeconfig.json
+E:\GitHub_Projects\ParallelProgramming\DataSharingAndSync\LockRecursion\bin\Debug\netcoreapp3.1\LockRecursion.runtimeconfig.dev.json
+E:\GitHub_Projects\ParallelProgramming\DataSharingAndSync\LockRecursion\bin\Debug\netcoreapp3.1\LockRecursion.dll
+E:\GitHub_Projects\ParallelProgramming\DataSharingAndSync\LockRecursion\bin\Debug\netcoreapp3.1\LockRecursion.pdb
+E:\GitHub_Projects\ParallelProgramming\DataSharingAndSync\LockRecursion\obj\Debug\netcoreapp3.1\LockRecursion.AssemblyInfoInputs.cache
+E:\GitHub_Projects\ParallelProgramming\DataSharingAndSync\LockRecursion\obj\Debug\netcoreapp3.1\LockRecursion.AssemblyInfo.cs
+E:\GitHub_Projects\ParallelProgramming\DataSharingAndSync\LockRecursion\obj\Debug\netcoreapp3.1\LockRecursion.dll
+E:\GitHub_Projects\ParallelProgramming\DataSharingAndSync\LockRecursion\obj\Debug\netcoreapp3.1\LockRecursion.pdb

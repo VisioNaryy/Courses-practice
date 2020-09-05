@@ -1,0 +1,11 @@
+E:\GitHub_Projects\ParallelProgramming\DataSharingAndSync\Mutex\bin\Debug\netcoreapp3.1\Mutex.exe
+E:\GitHub_Projects\ParallelProgramming\DataSharingAndSync\Mutex\bin\Debug\netcoreapp3.1\Mutex.deps.json
+E:\GitHub_Projects\ParallelProgramming\DataSharingAndSync\Mutex\bin\Debug\netcoreapp3.1\Mutex.runtimeconfig.json
+E:\GitHub_Projects\ParallelProgramming\DataSharingAndSync\Mutex\bin\Debug\netcoreapp3.1\Mutex.runtimeconfig.dev.json
+E:\GitHub_Projects\ParallelProgramming\DataSharingAndSync\Mutex\bin\Debug\netcoreapp3.1\Mutex.dll
+E:\GitHub_Projects\ParallelProgramming\DataSharingAndSync\Mutex\bin\Debug\netcoreapp3.1\Mutex.pdb
+E:\GitHub_Projects\ParallelProgramming\DataSharingAndSync\Mutex\obj\Debug\netcoreapp3.1\Mutex.csprojAssemblyReference.cache
+E:\GitHub_Projects\ParallelProgramming\DataSharingAndSync\Mutex\obj\Debug\netcoreapp3.1\Mutex.AssemblyInfoInputs.cache
+E:\GitHub_Projects\ParallelProgramming\DataSharingAndSync\Mutex\obj\Debug\netcoreapp3.1\Mutex.AssemblyInfo.cs
+E:\GitHub_Projects\ParallelProgramming\DataSharingAndSync\Mutex\obj\Debug\netcoreapp3.1\Mutex.dll
+E:\GitHub_Projects\ParallelProgramming\DataSharingAndSync\Mutex\obj\Debug\netcoreapp3.1\Mutex.pdb

@@ -1,0 +1,11 @@
+E:\GitHub_Projects\ParallelProgramming\DataSharingAndSync\CriticalSections\bin\Debug\netcoreapp3.1\CriticalSections.exe
+E:\GitHub_Projects\ParallelProgramming\DataSharingAndSync\CriticalSections\bin\Debug\netcoreapp3.1\CriticalSections.deps.json
+E:\GitHub_Projects\ParallelProgramming\DataSharingAndSync\CriticalSections\bin\Debug\netcoreapp3.1\CriticalSections.runtimeconfig.json
+E:\GitHub_Projects\ParallelProgramming\DataSharingAndSync\CriticalSections\bin\Debug\netcoreapp3.1\CriticalSections.runtimeconfig.dev.json
+E:\GitHub_Projects\ParallelProgramming\DataSharingAndSync\CriticalSections\bin\Debug\netcoreapp3.1\CriticalSections.dll
+E:\GitHub_Projects\ParallelProgramming\DataSharingAndSync\CriticalSections\bin\Debug\netcoreapp3.1\CriticalSections.pdb
+E:\GitHub_Projects\ParallelProgramming\DataSharingAndSync\CriticalSections\obj\Debug\netcoreapp3.1\CriticalSections.csprojAssemblyReference.cache
+E:\GitHub_Projects\ParallelProgramming\DataSharingAndSync\CriticalSections\obj\Debug\netcoreapp3.1\CriticalSections.AssemblyInfoInputs.cache
+E:\GitHub_Projects\ParallelProgramming\DataSharingAndSync\CriticalSections\obj\Debug\netcoreapp3.1\CriticalSections.AssemblyInfo.cs
+E:\GitHub_Projects\ParallelProgramming\DataSharingAndSync\CriticalSections\obj\Debug\netcoreapp3.1\CriticalSections.dll
+E:\GitHub_Projects\ParallelProgramming\DataSharingAndSync\CriticalSections\obj\Debug\netcoreapp3.1\CriticalSections.pdb

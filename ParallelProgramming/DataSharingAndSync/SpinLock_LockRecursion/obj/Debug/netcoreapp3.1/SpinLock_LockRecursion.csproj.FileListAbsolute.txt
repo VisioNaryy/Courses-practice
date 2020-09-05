@@ -1,0 +1,10 @@
+E:\GitHub_Projects\ParallelProgramming\DataSharingAndSync\SpinLock_LockRecursion\bin\Debug\netcoreapp3.1\SpinLock_LockRecursion.exe
+E:\GitHub_Projects\ParallelProgramming\DataSharingAndSync\SpinLock_LockRecursion\bin\Debug\netcoreapp3.1\SpinLock_LockRecursion.deps.json
+E:\GitHub_Projects\ParallelProgramming\DataSharingAndSync\SpinLock_LockRecursion\bin\Debug\netcoreapp3.1\SpinLock_LockRecursion.runtimeconfig.json
+E:\GitHub_Projects\ParallelProgramming\DataSharingAndSync\SpinLock_LockRecursion\bin\Debug\netcoreapp3.1\SpinLock_LockRecursion.runtimeconfig.dev.json
+E:\GitHub_Projects\ParallelProgramming\DataSharingAndSync\SpinLock_LockRecursion\bin\Debug\netcoreapp3.1\SpinLock_LockRecursion.dll
+E:\GitHub_Projects\ParallelProgramming\DataSharingAndSync\SpinLock_LockRecursion\bin\Debug\netcoreapp3.1\SpinLock_LockRecursion.pdb
+E:\GitHub_Projects\ParallelProgramming\DataSharingAndSync\SpinLock_LockRecursion\obj\Debug\netcoreapp3.1\SpinLock_LockRecursion.AssemblyInfoInputs.cache
+E:\GitHub_Projects\ParallelProgramming\DataSharingAndSync\SpinLock_LockRecursion\obj\Debug\netcoreapp3.1\SpinLock_LockRecursion.AssemblyInfo.cs
+E:\GitHub_Projects\ParallelProgramming\DataSharingAndSync\SpinLock_LockRecursion\obj\Debug\netcoreapp3.1\SpinLock_LockRecursion.dll
+E:\GitHub_Projects\ParallelProgramming\DataSharingAndSync\SpinLock_LockRecursion\obj\Debug\netcoreapp3.1\SpinLock_LockRecursion.pdb

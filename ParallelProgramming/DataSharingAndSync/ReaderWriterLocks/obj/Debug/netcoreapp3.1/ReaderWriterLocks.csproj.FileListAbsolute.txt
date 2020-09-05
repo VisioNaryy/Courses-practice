@@ -1,0 +1,11 @@
+E:\GitHub_Projects\ParallelProgramming\DataSharingAndSync\ReaderWriterLocks\bin\Debug\netcoreapp3.1\ReaderWriterLocks.exe
+E:\GitHub_Projects\ParallelProgramming\DataSharingAndSync\ReaderWriterLocks\bin\Debug\netcoreapp3.1\ReaderWriterLocks.deps.json
+E:\GitHub_Projects\ParallelProgramming\DataSharingAndSync\ReaderWriterLocks\bin\Debug\netcoreapp3.1\ReaderWriterLocks.runtimeconfig.json
+E:\GitHub_Projects\ParallelProgramming\DataSharingAndSync\ReaderWriterLocks\bin\Debug\netcoreapp3.1\ReaderWriterLocks.runtimeconfig.dev.json
+E:\GitHub_Projects\ParallelProgramming\DataSharingAndSync\ReaderWriterLocks\bin\Debug\netcoreapp3.1\ReaderWriterLocks.dll
+E:\GitHub_Projects\ParallelProgramming\DataSharingAndSync\ReaderWriterLocks\bin\Debug\netcoreapp3.1\ReaderWriterLocks.pdb
+E:\GitHub_Projects\ParallelProgramming\DataSharingAndSync\ReaderWriterLocks\obj\Debug\netcoreapp3.1\ReaderWriterLocks.csprojAssemblyReference.cache
+E:\GitHub_Projects\ParallelProgramming\DataSharingAndSync\ReaderWriterLocks\obj\Debug\netcoreapp3.1\ReaderWriterLocks.AssemblyInfoInputs.cache
+E:\GitHub_Projects\ParallelProgramming\DataSharingAndSync\ReaderWriterLocks\obj\Debug\netcoreapp3.1\ReaderWriterLocks.AssemblyInfo.cs
+E:\GitHub_Projects\ParallelProgramming\DataSharingAndSync\ReaderWriterLocks\obj\Debug\netcoreapp3.1\ReaderWriterLocks.dll
+E:\GitHub_Projects\ParallelProgramming\DataSharingAndSync\ReaderWriterLocks\obj\Debug\netcoreapp3.1\ReaderWriterLocks.pdb

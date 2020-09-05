@@ -1,0 +1,10 @@
+E:\GitHub_Projects\ParallelProgramming\Demo\ExceptionsHandling\bin\Debug\netcoreapp3.1\ExceptionsHandling.exe
+E:\GitHub_Projects\ParallelProgramming\Demo\ExceptionsHandling\bin\Debug\netcoreapp3.1\ExceptionsHandling.deps.json
+E:\GitHub_Projects\ParallelProgramming\Demo\ExceptionsHandling\bin\Debug\netcoreapp3.1\ExceptionsHandling.runtimeconfig.json
+E:\GitHub_Projects\ParallelProgramming\Demo\ExceptionsHandling\bin\Debug\netcoreapp3.1\ExceptionsHandling.runtimeconfig.dev.json
+E:\GitHub_Projects\ParallelProgramming\Demo\ExceptionsHandling\bin\Debug\netcoreapp3.1\ExceptionsHandling.dll
+E:\GitHub_Projects\ParallelProgramming\Demo\ExceptionsHandling\bin\Debug\netcoreapp3.1\ExceptionsHandling.pdb
+E:\GitHub_Projects\ParallelProgramming\Demo\ExceptionsHandling\obj\Debug\netcoreapp3.1\ExceptionsHandling.AssemblyInfoInputs.cache
+E:\GitHub_Projects\ParallelProgramming\Demo\ExceptionsHandling\obj\Debug\netcoreapp3.1\ExceptionsHandling.AssemblyInfo.cs
+E:\GitHub_Projects\ParallelProgramming\Demo\ExceptionsHandling\obj\Debug\netcoreapp3.1\ExceptionsHandling.dll
+E:\GitHub_Projects\ParallelProgramming\Demo\ExceptionsHandling\obj\Debug\netcoreapp3.1\ExceptionsHandling.pdb

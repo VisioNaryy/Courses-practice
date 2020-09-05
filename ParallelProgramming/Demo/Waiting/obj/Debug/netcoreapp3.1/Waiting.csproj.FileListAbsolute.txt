@@ -1,0 +1,11 @@
+E:\GitHub_Projects\ParallelProgramming\Demo\Waiting\bin\Debug\netcoreapp3.1\Waiting.exe
+E:\GitHub_Projects\ParallelProgramming\Demo\Waiting\bin\Debug\netcoreapp3.1\Waiting.deps.json
+E:\GitHub_Projects\ParallelProgramming\Demo\Waiting\bin\Debug\netcoreapp3.1\Waiting.runtimeconfig.json
+E:\GitHub_Projects\ParallelProgramming\Demo\Waiting\bin\Debug\netcoreapp3.1\Waiting.runtimeconfig.dev.json
+E:\GitHub_Projects\ParallelProgramming\Demo\Waiting\bin\Debug\netcoreapp3.1\Waiting.dll
+E:\GitHub_Projects\ParallelProgramming\Demo\Waiting\bin\Debug\netcoreapp3.1\Waiting.pdb
+E:\GitHub_Projects\ParallelProgramming\Demo\Waiting\obj\Debug\netcoreapp3.1\Waiting.csprojAssemblyReference.cache
+E:\GitHub_Projects\ParallelProgramming\Demo\Waiting\obj\Debug\netcoreapp3.1\Waiting.AssemblyInfoInputs.cache
+E:\GitHub_Projects\ParallelProgramming\Demo\Waiting\obj\Debug\netcoreapp3.1\Waiting.AssemblyInfo.cs
+E:\GitHub_Projects\ParallelProgramming\Demo\Waiting\obj\Debug\netcoreapp3.1\Waiting.dll
+E:\GitHub_Projects\ParallelProgramming\Demo\Waiting\obj\Debug\netcoreapp3.1\Waiting.pdb

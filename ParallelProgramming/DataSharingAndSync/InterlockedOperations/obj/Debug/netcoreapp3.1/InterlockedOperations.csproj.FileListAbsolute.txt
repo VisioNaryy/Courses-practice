@@ -1,0 +1,11 @@
+E:\GitHub_Projects\ParallelProgramming\DataSharingAndSync\InterlockedOperations\bin\Debug\netcoreapp3.1\InterlockedOperations.exe
+E:\GitHub_Projects\ParallelProgramming\DataSharingAndSync\InterlockedOperations\bin\Debug\netcoreapp3.1\InterlockedOperations.deps.json
+E:\GitHub_Projects\ParallelProgramming\DataSharingAndSync\InterlockedOperations\bin\Debug\netcoreapp3.1\InterlockedOperations.runtimeconfig.json
+E:\GitHub_Projects\ParallelProgramming\DataSharingAndSync\InterlockedOperations\bin\Debug\netcoreapp3.1\InterlockedOperations.runtimeconfig.dev.json
+E:\GitHub_Projects\ParallelProgramming\DataSharingAndSync\InterlockedOperations\bin\Debug\netcoreapp3.1\InterlockedOperations.dll
+E:\GitHub_Projects\ParallelProgramming\DataSharingAndSync\InterlockedOperations\bin\Debug\netcoreapp3.1\InterlockedOperations.pdb
+E:\GitHub_Projects\ParallelProgramming\DataSharingAndSync\InterlockedOperations\obj\Debug\netcoreapp3.1\InterlockedOperations.csprojAssemblyReference.cache
+E:\GitHub_Projects\ParallelProgramming\DataSharingAndSync\InterlockedOperations\obj\Debug\netcoreapp3.1\InterlockedOperations.AssemblyInfoInputs.cache
+E:\GitHub_Projects\ParallelProgramming\DataSharingAndSync\InterlockedOperations\obj\Debug\netcoreapp3.1\InterlockedOperations.AssemblyInfo.cs
+E:\GitHub_Projects\ParallelProgramming\DataSharingAndSync\InterlockedOperations\obj\Debug\netcoreapp3.1\InterlockedOperations.dll
+E:\GitHub_Projects\ParallelProgramming\DataSharingAndSync\InterlockedOperations\obj\Debug\netcoreapp3.1\InterlockedOperations.pdb
